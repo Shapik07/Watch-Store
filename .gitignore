@@ -15,3 +15,6 @@ yarn-error.log*
 # Системные файлы (Windows, macOS)
 .DS_Store
 Thumbs.db
+
+*.log
+
