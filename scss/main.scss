@@ -1,13 +1,6 @@
-// 1. Сначала переменные
-@import "abstracts/variables";
+// base styles
+@import 'base/reset';
+@import 'base/container';
 
-// 2. Затем миксины (включая transition)
-@import "abstracts/mixins";
-
-// 3. Базовые стили
-@import "base/reset";
-@import "base/typography";
-
-// 4. И только после этого — компоненты
-@import "components/header";
-@import "components/footer";
+// Components
+@import 'components/header';
