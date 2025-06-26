@@ -1,7 +1,9 @@
 .tabs {
-    display: flex;
+  display: flex;
+  flex-direction: column;
 }
 
 .pane {
-    background-color: tomato;
+  background-color: yellow;
+  color: green;
 }
