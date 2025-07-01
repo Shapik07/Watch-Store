@@ -15,11 +15,11 @@
 
   <body>
     <header class="page-header">
-      <div class="main-nav container">
+      <div class="page-actions container">
         <button class="mob-menu-btn">
           <img src="./images/icons/menu.svg" alt="menu" />
         </button>
-        <button class="mob-menu-btn__close">
+        <button class="mob-menu-btn mob-menu-btn--close">
           <img src="./images/icons/cross.svg" alt="menu" />
         </button>
 
@@ -27,8 +27,8 @@
           <img src="./images/Logo.svg" alt="logo" class="logo-img" />
         </a>
 
-        <nav class="phone-nav">
-          <ul class="site-nav">
+        <nav class="site-nav">
+          <ul class="site-nav__list">
             <li class="site-nav__item">
               <a href="">Authentication Service</a>
             </li>
@@ -58,7 +58,37 @@
       </div>
     </header>
 
-    <main></main>
+    <main>
+      <section class="hero">
+        <div class="container hero-container">
+          <h1 class="hero__title">
+            Authenticate luxury watches on Chrono24 before buying
+          </h1>
+          <form action="" class="hero-search-form">
+            <input
+              type="text"
+              class="hero-search-form__input"
+              placeholder="Enter Chrono24 listing URL to get a quote..."
+              aria-label="search"
+            />
+            <button
+              type="submit"
+              class="hero-search-form__btn"
+              aria-label="Найти"
+            >
+              Get a quote
+            </button>
+          </form>
+          <div class="hero-inform">
+            <p class="hero-inform__text">
+              Authenticity &amp; condition <a href="">report</a>
+            </p>
+            <p class="hero-inform__text">24/7 customer support</p>
+            <p class="hero-inform__text">Money back guarantee</p>
+          </div>
+        </div>
+      </section>
+    </main>
 
     <footer></footer>
     <script src="./js/script.js"></script>

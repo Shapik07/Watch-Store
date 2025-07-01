@@ -1,0 +1,49 @@
+.hero {
+  background-image: url('/images/mobile-hero-background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hero__title {
+  margin-top: 60px;
+}
+
+.hero-inform {
+  margin-bottom: 60px;
+}
+
+.hero-search-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-search-form__input {
+  border: 1px solid #838485;
+  border-radius: 27.5px;
+}
+
+.hero-search-form__btn {
+  border-radius: 27.5px;
+  background-color: #3760ef;
+  color: white;
+}
+
+.hero-search-form__input,
+.hero-search-form__btn {
+  display: block;
+  height: 40px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+}
