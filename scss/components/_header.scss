@@ -1,5 +1,27 @@
+.page-header {
+  height: 60px;
+  width: 100%;
+}
+
+.phone-nav,
+.mob-menu-btn__close {
+  display: none;
+  color: black;
+  font-weight: 16px;
+}
+
 .logo {
   display: block;
   height: 22px;
   width: 80px;
+}
+
+.header-btn {
+  width: 25px;
+  height: 25px;
+}
+
+.mob-menu-btn,
+.mob-menu-btn__close {
+  cursor: pointer;
 }
