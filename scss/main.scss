@@ -1,9 +1,6 @@
-.tabs {
-  display: flex;
-  flex-direction: column;
-}
+// base styles
+@import 'base/reset';
+@import 'base/container';
 
-.pane {
-  background-color: yellow;
-  color: green;
-}
+// Components
+@import 'components/header';

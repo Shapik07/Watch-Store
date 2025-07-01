@@ -5,11 +5,19 @@
   "main": "index.js",
   "scripts": {
     "sass": "sass scss/main.scss css/main.css",
-    "sass:watch": "sass --watch scss/main.scss:css/main.css"
+    "sass:watch": "sass --watch scss/main.scss:css/main.css",
+    "format": "prettier --write \"**/*.{js,scss,html,json,css,md}\""
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "printWidth": 80,
+    "trailingComma": "es5"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "prettier": "^3.6.1",
     "sass": "^1.89.2"
   }
 }
